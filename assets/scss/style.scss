@@ -2,15 +2,22 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 @import "bootstrap";
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 #backbtn {
   position: fixed;
   bottom: 20px;
   right: 20px;
+
   .badge {
     color: $primary;
   }
+}
+
+h2.display-4 {
+  font-family: 'Raleway';
+  font-weight: bold;
+  color: $primary;
 }
